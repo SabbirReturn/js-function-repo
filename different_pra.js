@@ -24,5 +24,27 @@ function doOrdouble (num, doOrdouble){
 }
 let output1 = doOrdouble(5, true);
 let output2 = doOrdouble(5, false);
-console.log(output1);
-console.log(output2);
+// console.log(output1);
+// console.log(output2);
+
+
+function numberOfElement(number){
+    let len = number.length;
+    return len;
+}
+// let output = numberOfElement([1,2,3,4,5,6,7]);
+// console.log(output);
+
+
+function getAge(person){
+    let age = person;
+    return age;
+}
+ let output = getAge(
+    man={
+        name:'Sabbir Hasan',
+        age: 25,
+        address: 'Uttara',
+    }
+)
+console.log(output);
