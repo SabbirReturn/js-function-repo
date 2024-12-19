@@ -1,5 +1,5 @@
 function oddAverage(nums){
-    let oddNumber = [];
+    let oddNumber =  [];
     let sum= 0;
     for(let num of nums){
         if(num % 2==1){
